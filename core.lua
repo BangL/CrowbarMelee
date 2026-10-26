@@ -12,6 +12,8 @@ Hooks:Add("SkinLibCollectData", "CrowbarMelee.SkinLibCollectData", function(self
 		:set_fps_offset(0.9, 11.1, -2.6)
 		:set_tps_rotation(-90, 0, -90)
 		:set_tps_offset(0, 8, -2)
+		:set_melee_decal_effect(false)
+		:set_melee_sounds("fist")
 
 	self.RegisterSkin(skin)
 end)
