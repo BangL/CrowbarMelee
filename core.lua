@@ -1,4 +1,8 @@
 Hooks:Add("SkinLibCollectData", "CrowbarMelee.SkinLibCollectData", function(self)
+	if not SkinLib.RequireVersion(0, 6, 0) then
+		return
+	end
+
 	local skin = SL_Skin:new("bangl_ws_machete_crowbar", "lc14b")
 		:set_name_id("bangl_ws_machete_crowbar")
 		:set_weapon_name_id("bangl_ws_machete_crowbar_name")
