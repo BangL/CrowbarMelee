@@ -10,6 +10,8 @@ Hooks:Add("SkinLibCollectData", "CrowbarMelee.SkinLibCollectData", function(self
 		})
 		:set_fps_rotation(180, 90, -60)
 		:set_fps_offset(0.9, 11.1, -2.6)
+		:set_tps_rotation(-90, 0, -90)
+		:set_tps_offset(0, 8, -2)
 
 	self.RegisterSkin(skin)
 end)
