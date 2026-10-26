@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<mod name="CrowbarMelee"
+     description="Crowbar skin for the LC14B machete (SkinLib)."
+     author="BangL"
+     contact="https://steamcommunity.com/id/BangL"
+     version="0.1"
+     color="60 60 60">
+    <updates>
+        <update identifier="crowbarmelee">
+            <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/crowbarmelee.json"/>
+        </update>
+    </updates>
+    <hooks>
+        <pre hook_id="lib/setups/setup" script_path="core.lua" />
+    </hooks>
+    <dependencies>
+        <dependency name="SkinLib" download_url="https://api.modworkshop.net/mods/55400/download" />
+    </dependencies>
+    <localization directory="loc" default_language="english">
+        <loc file="english.json" language="english" />
+        <loc file="german.json" language="german" />
+    </localization>
+    <assets load="startup">
+        <file path="assets/wpn_fps_mel_crowbar.unit" name="units/bangl/weapons/wpn_fps_mel_crowbar/wpn_fps_mel_crowbar.unit" dyn_package="false"/>
+        <file path="assets/wpn_fps_mel_crowbar.object" name="units/bangl/weapons/wpn_fps_mel_crowbar/wpn_fps_mel_crowbar.object"/>
+        <file path="assets/wpn_fps_mel_crowbar.model" name="units/bangl/weapons/wpn_fps_mel_crowbar/wpn_fps_mel_crowbar.model"/>
+        <file path="assets/wpn_fps_mel_crowbar.material_config" name="units/bangl/weapons/wpn_fps_mel_crowbar/wpn_fps_mel_crowbar.material_config"/>
+        <file path="assets/wpn_third_mel_crowbar.unit" name="units/bangl/weapons/wpn_third_mel_crowbar/wpn_third_mel_crowbar.unit" dyn_package="false"/>
+        <file path="assets/wpn_third_mel_crowbar.object" name="units/bangl/weapons/wpn_third_mel_crowbar/wpn_third_mel_crowbar.object"/>
+        <file path="assets/wpn_third_mel_crowbar.model" name="units/bangl/weapons/wpn_third_mel_crowbar/wpn_third_mel_crowbar.model"/>
+        <file path="assets/wpn_third_mel_crowbar.material_config" name="units/bangl/weapons/wpn_third_mel_crowbar/wpn_third_mel_crowbar.material_config"/>
+        <file path="assets/crowbar_df.texture" name="units/bangl/weapons/crowbar/crowbar_df.texture"/>
+        <file path="assets/crowbar_gsm.texture" name="units/bangl/weapons/crowbar/crowbar_gsm.texture"/>
+        <file path="assets/crowbar_nm.texture" name="units/bangl/weapons/crowbar/crowbar_nm.texture"/>
+    </assets>
+</mod>

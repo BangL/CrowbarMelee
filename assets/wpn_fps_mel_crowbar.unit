@@ -1,0 +1,12 @@
+<unit type="wpn" slot="1">
+    <object file="units/bangl/weapons/wpn_fps_mel_crowbar/wpn_fps_mel_crowbar" />
+    <dependencies>
+        <depends_on bnk="soundbanks/melee_knife"/>
+    </dependencies>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+        <extension name="base" class="MeleeWeaponBase">
+            <var name="name_id" value="lc14b" />
+        </extension>
+    </extensions>
+</unit>

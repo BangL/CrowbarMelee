@@ -1,0 +1,7 @@
+<dynamic_object>
+    <diesel orientation_object="rp_equip_crowbar" materials="units/bangl/weapons/wpn_third_mel_crowbar/wpn_third_mel_crowbar" />
+    <graphics>
+        <object name="g_crowbar" enabled="true" />
+        <object name="s_crowbar" enabled="true" shadow_caster="true" />
+    </graphics>
+</dynamic_object>
