@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<mod name="CrowbarMelee"
+<mod name="CrowbarMelee" image="icon.png"
      description="Crowbar skin for the LC14B machete (SkinLib)."
      author="BangL"
      contact="https://steamcommunity.com/id/BangL"
