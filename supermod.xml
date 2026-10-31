@@ -7,7 +7,7 @@
      color="60 60 60">
     <updates>
         <update identifier="crowbarmelee">
-            <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/crowbarmelee.json"/>
+            <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/crowbarmelee.json" patchnotes="https://github.com/BangL/CrowbarMelee/blob/master/CHANGELOG.md"/>
         </update>
     </updates>
     <hooks>
